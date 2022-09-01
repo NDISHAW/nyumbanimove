@@ -4,8 +4,8 @@ import Card from "./Card";
 const Cards = () => {
   return (
     <div>
-      <div className="bg-amber-100 py-4">
-        <div className="cards flex justify-between">
+      <div className="w-4/5 mx-auto">
+        <div className="cards flex flex-wrap justify-between">
           <Card
             img="https://www.svgrepo.com/show/25233/delivery-truck.svg"
             title="Local Moves"
@@ -25,7 +25,9 @@ const Cards = () => {
           />
         </div>
 
-        <div className="cards flex justify-between mt-5">
+        
+        <div className="cards flex flex-wrap justify-between">
+
           <Card
             img="https://png.pngtree.com/png-vector/20191128/ourmid/pngtree-coin-money-icon-png-image_2049478.jpg"
             title="Favorable Prices"

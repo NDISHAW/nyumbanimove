@@ -2,8 +2,8 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="card py-4">
-      <div className="w-full max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
+    <div className="card pb-4">
+      <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-xl dark:bg-gray-800 dark:border-gray-700">
         <div className="flex flex-col items-center pb-10">
           <h5 className="mb-1 text-2xl font-medium text-gray-900 dark:text-white mt-3">
             {props.title}

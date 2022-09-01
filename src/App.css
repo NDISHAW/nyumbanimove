@@ -1,0 +1,11 @@
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1619302820124-e3b9d8a7f686?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80");
+}
+
+.hero-component {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
